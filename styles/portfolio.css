@@ -54,7 +54,7 @@ p {
 
 .img-fluid {
 	border-radius: 10px;
-	margin: 30px 0px 0px 0px;
+	margin: 25px 0px 0px 0px;
 }
 
 .intro {
@@ -67,4 +67,13 @@ p {
 	font-size: 18px;
 	font-style: italic;
 	font-weight: 400;
+}
+
+@media (max-width: 400px) {
+	h1 {
+		font-size: 65px;
+	}
+	h2 {
+		font-size: 25px;
+	}
 }
