@@ -69,11 +69,40 @@ p {
 	font-weight: 400;
 }
 
+nav {
+	padding: 10px 0;
+}
+
+nav a {
+	text-decoration: none;
+	color: black;
+}
+
+nav li {
+	display: inline;
+	list-style: none;
+	line-height: 30px;
+	margin-left: 18px;
+}
+
+nav ul {
+	padding: 0;
+	margin: 0;
+}
+
+nav a:hover {
+	color: var(--accent-color);
+}
+
 @media (max-width: 400px) {
 	h1 {
 		font-size: 60px;
 	}
 	h2 {
 		font-size: 25px;
+	}
+
+	nav a {
+		font-size: 10px;
 	}
 }
